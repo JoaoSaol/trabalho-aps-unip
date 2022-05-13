@@ -13,12 +13,12 @@
             font-size: 20px;
             text-align: justify;
         }
-        
+
         .titulo {
             color: white;
             align-content: center;
         }
-        
+
         .topnav {
             top: 0;
             overflow: hidden;
@@ -26,7 +26,7 @@
             border-radius: 25px;
             position: fixed;
         }
-        
+
         .topnav a {
             float: right;
             color: #f2f2f2;
@@ -35,42 +35,42 @@
             text-decoration: none;
             font-size: 17px;
         }
-        
+
         .topnav a:hover {
             background-color: #ddd;
             color: black;
         }
-        
+
         .topnav a.active {
             background-color: #004f04;
             color: white;
         }
-        
+
         #img-pantanal {
             width: 50%;
             border-radius: 15px;
         }
-        
+
         #corpo-img-pantanal {
             display: flex;
             justify-content: center;
         }
-        
+
         #toolbar {
             display: flex;
             justify-content: center;
         }
-        
+
         .main {
             padding: 16px;
             margin-top: 40px;
         }
-        
+
         .centraliza-titulo {
             display: flex;
             justify-content: center;
         }
-        
+
         @media screen and (max-width: 768px) {
             #img-pantanal {
                 width: 70%;
@@ -81,6 +81,7 @@
 </head>
 
 <body bgcolor="#2e7c31">
+    <!-- Toolbar onde faz a ligação com todas as páginas do sistema -->
     <div id="toolbar">
         <div class="topnav">
             <a href="solo.html">Solos</a>
@@ -88,14 +89,20 @@
             <a href="index.html">Pantanal</a>
         </div>
     </div>
+    <!-- div principal -->
     <div class="main">
+        <!-- titulo -->
         <div class="centraliza-titulo">
             <h1 class="titulo" id="fauna"> Fauna </h1>
         </div>
 
         <p>
-            A fauna do Pantanal é bastante diversificada. Levantamentos registraram cerca de 263 espécies de peixes, 41 espécies de anfíbios, 113 espécies de répteis, 463 espécies de aves e 132 espécies de mamíferos sendo 2 endêmicas. Jacarés, capivaras e onças estão
-            entre os principais animais. Dentre as espécies de jacarés mais encontradas estão: o jacaré-do-Pantanal, o jacaré-comum e o jacaré-do-papo-amarelo. Os jacarés não são animais agressivos como vemos em muitos filmes, só atacam os homens quando
+            A fauna do Pantanal é bastante diversificada. Levantamentos registraram cerca de 263 espécies de peixes, 41
+            espécies de anfíbios, 113 espécies de répteis, 463 espécies de aves e 132 espécies de mamíferos sendo 2
+            endêmicas. Jacarés, capivaras e onças estão
+            entre os principais animais. Dentre as espécies de jacarés mais encontradas estão: o jacaré-do-Pantanal, o
+            jacaré-comum e o jacaré-do-papo-amarelo. Os jacarés não são animais agressivos como vemos em muitos filmes,
+            só atacam os homens quando
             se sentem ameaçados e sua dieta é a base de peixes.
         </p>
 
@@ -104,7 +111,8 @@
         </div>
 
         <p>
-            Além dos jacarés, é possível encontrar diferentes cobras, como a sucuri, a jararaca e a jiboia e o sinimbú, um tipo de lagarto. Existe ainda no pantanal uma infinidade de formigas, cupins, aranhas e mosquitos.
+            Além dos jacarés, é possível encontrar diferentes cobras, como a sucuri, a jararaca e a jiboia e o sinimbú,
+            um tipo de lagarto. Existe ainda no pantanal uma infinidade de formigas, cupins, aranhas e mosquitos.
         </p>
 
         <div id="corpo-img-pantanal">
@@ -112,7 +120,9 @@
         </div>
 
         <p>
-            A abundância de água neste grande ecossistema, é um grande diferencial do bioma pantaneiro que favorece a existência de numerosos animais aquáticos. Dentre a variedade de peixes, encontra-se pintados, pacus, dourados, piauçus e jaús. Os jaús são bagres
+            A abundância de água neste grande ecossistema, é um grande diferencial do bioma pantaneiro que favorece a
+            existência de numerosos animais aquáticos. Dentre a variedade de peixes, encontra-se pintados, pacus,
+            dourados, piauçus e jaús. Os jaús são bagres
             gigantes que chegam a medir um metro e meio de comprimento e pesar 120 quilos.
         </p>
 
@@ -121,13 +131,19 @@
         </div>
 
         <p>
-            As principais atividades econômicas do Pantanal são a pecuária, pesca e o turismo. Porém as maiores ameaças a este bioma são o desmatamento e o manejo inadequado de terras para agropecuária, a construção de hidrelétricas e o crescimento urbano e populacional.
+            As principais atividades econômicas do Pantanal são a pecuária, pesca e o turismo. Porém as maiores ameaças
+            a este bioma são o desmatamento e o manejo inadequado de terras para agropecuária, a construção de
+            hidrelétricas e o crescimento urbano e populacional.
         </p>
 
+        <!-- QrCode para baixar o aplicativo no android -->
         <div align="center" style="margin-top: 20px;">
-            <a href="http://ai2.appinventor.mit.edu/b/360a4" target="_blank" style="color: white">
+            <p style="color: white;">
                 Baixe o aplicativo agora no android
-            </a>
+            </p>
+        </div>
+        <div id="corpo-img-pantanal">
+            <img src="./img/img-qrcode.png" width="25%">
         </div>
     </div>
 </body>
